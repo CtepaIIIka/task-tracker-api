@@ -22,38 +22,8 @@ REST API для управления задачами. Проект написа
 | PUT | /tasks/{id} | Обновить существующую задачу |
 | DELETE | /tasks/{id} | Удалить задачу |
 
-## Пример запроса
-
 ### Создание задачи (POST /tasks)
 
-**Тело запроса:**
-```json
-{
-    "title": "Подготовить проект для стажировки",
-    "description": "Написать REST API на Spring Boot и залить на GitHub",
-    "completed": false
-}
-Ответ:
-
-json
-{
-    "id": 1,
-    "title": "Подготовить проект для стажировки",
-    "description": "Написать REST API на Spring Boot и залить на GitHub",
-    "completed": false
-}
-Получение всех задач (GET /tasks)
-Ответ:
-
-json
-[
-    {
-        "id": 1,
-        "title": "Подготовить проект для стажировки",
-        "description": "Написать REST API на Spring Boot и залить на GitHub",
-        "completed": false
-    }
-]
 Как запустить
 Клонируйте репозиторий:
 
