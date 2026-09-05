@@ -37,20 +37,14 @@ git clone https://github.com/CtepaIIIka/task-tracker-api.git
 
 После запуска API будет доступен по адресу:
 
-text
+
 http://localhost:8080
 Для просмотра базы данных перейдите по адресу:
 
-text
+
 http://localhost:8080/h2-console
-JDBC URL: jdbc:h2:mem:taskdb
 
 User: sa
 
 Password: оставить пустым
 
-Планы по развитию
-□ Добавить статусы задач (To Do, In Progress, Done)
-□ Добавить фильтрацию задач по статусу
-□ Написать интеграционные тесты
-□ Документировать API через Swagger/OpenAPI
